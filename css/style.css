@@ -10,6 +10,16 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+p, span{
+  color: #2a3f4f;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 /* regole generali sezione nav */
 
 .navreg {
@@ -30,34 +40,33 @@ a {
   border-bottom: 1px solid #33475B;
 }
 
-a.buttonhubspot {
+.buttonhubspot {
   color: white;
-  padding: 10px;
+  padding: 7px;
   border-radius: 5px;
-  background-color: #fe775a;
-  border: 2px solid #fe775a;
+  background-color: #fd785c;
+  border: 2px solid #fd785c;
 }
 
 .buttonlogin {
   color: #fe775a;
-  padding: 10px;
+  padding: 7px;
   border-radius: 8px;
   border: 2px solid #fe775a;
 }
 
 .nav-left{
   float: left;
-  line-height: 70px;
 }
 
 .nav-right{
   float: right;
-  line-height: 70px;
 }
 
 .nav-left ul li, .nav-right ul li {
   display: inline-block;
   margin-right: 15px;
+  line-height: 70px;
 }
 
 /* icone barra contatti,login ecc..  */
@@ -94,3 +103,41 @@ a.buttonhubspot {
   display: inline-block;
   margin-right: 15px;
 }
+
+/* jumbotron */
+
+.header-jumbotron {
+  height: 700px;
+  width: 100%;
+  position: relative;
+  background-image: url("../img/jumbotron.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home {
+  width: 55%;
+  position: relative;
+  top: 60px;
+}
+
+.home > h1 {
+  font-size: 50px;
+}
+
+.home > p {
+  margin: 25px auto 35px;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.home > span {
+  display: block;
+  margin-top: 30px;
+  font-size: 10px;
+}
+
+.homes > a {
+  text-align: center;
+  padding: 15px;
