@@ -10,7 +10,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-p, span{
+h2, p, span{
   color: #2a3f4f;
 }
 
@@ -19,6 +19,8 @@ p, span{
   display: table;
   clear: both;
 }
+
+/* HEADER */
 
 /* regole generali sezione nav */
 
@@ -141,3 +143,32 @@ a {
 .homes > a {
   text-align: center;
   padding: 15px;
+}
+
+  /* MAIN */
+
+.sectioncentr {
+    background-color: #f4f9fd;
+    position: relative;
+    padding: 5% 0;
+  }
+
+  /* regole sezione "cubo" */
+
+.cube {
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  line-height: 2;
+}
+
+.cubereg {
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+
+.cube img {
+  max-width: 280px;
+}
