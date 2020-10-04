@@ -2,121 +2,488 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> HubSpot | Inbound Marketing, Sales, and Service Software</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>htmlcss-hubspot</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,600,400,800" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-
   </head>
+
   <body>
 
+    <!-- HEADER -->
     <header>
 
-      <!-- barra contatti,login ecc.. -->
-      <section class="nav-contenitor">
+      <!-- LOG-IN Bar Menu -->
+      <div class="log-in-bar">
 
-        <div class="navreg clearfix">
+        <!-- LOG-IN Bar Container -->
+        <div class="container clearfix">
 
-          <div class="nav-left">
+          <!-- LOG-IN Bar Left Column -->
+          <div id="log-in-left" class="col-50">
             <ul>
-              <li><a href="#"><i class="fas fa-globe-americas"></i>English<i class="fas fa-angle-down"></i></a></li>
-              <li>|</li>
-              <li><a href="#" >Contact Us</a></li>
+              <li>
+                <i class="fas fa-globe-europe"></i>
+                <a class="text" target="_blank">English</a>
+                <i class="fas fa-chevron-down"></i>
+              </li>
+              <li>
+                <a class="text" target="_blank">Contact Us</a>
+              </li>
             </ul>
           </div>
+          <!-- End LOG-IN Bar Left Column -->
 
-          <div class="nav-right">
+          <!-- LOG-IN Bar Right Column -->
+          <div id="log-in-right" class="col-50">
             <ul>
-              <li><a href="#"><i class="fas fa-search"></i></a></li>
-              <li><a href="#" class="buttonlogin">Log In</a></li>
-              <li><a href="#" class="buttonhubspot">GetHubpostFree</a></li>
+              <li>
+                <i class="fas fa-search"></i>
+              </li>
+              <li>
+                <a class="text" target="_blank">Log in</a>
+              </li>
+              <li>
+                <a class="button" target="_blank">GetHubspotFree</a>
+              </li>
             </ul>
           </div>
 
         </div>
 
-      </section>
+      </div>
 
-      <!-- nav principale -->
+      <!-- NAVIGATION Menu -->
+      <nav class="menu">
 
-      <section class="logo-navbar">
+        <!-- menu Container -->
+        <div class="container clearfix">
 
-       <div class="navreg clearfix">
-
-         <div class="logo">
-
-           <img src="img/logo.svg" alt="">
-
-         </div>
-
-         <nav>
-           <ul>
-             <li><a href="#">Software<i class="fas fa-angle-down"></i></a></li>
-             <li><a href="#">Pricing</a></li>
-             <li><a href="#">Resources<i class="fas fa-angle-down"></i></a></li>
-             <li><a href="#">Partners<i class="fas fa-angle-down"></i></a></li>
-             <li><a href="#">About<i class="fas fa-angle-down"></i></a></li>
-           </ul>
-         </nav>
-
-       </div>
-
-     </section>
-
-     <!-- jumbotron -->
-
-     <section class="header-jumbotron">
-
-        <div class="navreg">
-
-          <div class="home">
-
-            <h1>There's a better way <br>to grow</h1>
-            <p>Marketing, sales, and service software that helps your business grow without<br>
-              compromise. Because "good for the business" should also mean "good for the<br>
-              customer."
-            </p>
-
-            <ul style="list-style-type: none;">
-              <li><a href="#" class="buttonhubspot">GetHubpostFree</a></li>
-            </ul>
-
-            <span>Get started with FREE tools, and upgrade as you grow.</span>
-
+          <!-- menu Left Column-->
+          <div id="nav-left" class="col-50">
+            <img src="img/logo.svg" alt="Logo">
           </div>
 
-       </div>
+          <!-- menu Right Column -->
+          <div id="nav-right" class="col-50">
+            <ul>
+              <li>
+                <a class="text" target="_blank">Software</a>
+                <i class="fas fa-chevron-down"></i>
+              </li>
+              <li>
+                <a class="text" target="_blank">Pricing</a>
+              </li>
+              <li>
+                <a class="text" target="_blank">Resources</a>
+                <i class="fas fa-chevron-down"></i>
+              </li>
+              <li>
+                <a class="text" target="_blank">Partners</a>
+                <i class="fas fa-chevron-down"></i>
+              </li>
+              <li>
+                <a class="text" target="_blank">About</a>
+                <i class="fas fa-chevron-down"></i>
+              </li>
+            </ul>
+          </div>
 
-     </section>
+        </div>
+
+      </nav>
+
+      <!-- HEADER Image -->
+      <div class="header-image">
+        <div class="container">
+
+      <!-- HEADER Title -->
+          <div id="head-title">
+            <h1 class="title">There's a better way to grow.</h1>
+            <p class="text">Marketing, sales service software that helps your buisiness grow without compromise.
+               Because "good for the business" should also mean "good for the customer".</p>
+            <div><a class="button" target="_blank">GetHubspotFree</a></div>
+            <p class="text">Get started with FREE tools, and upgrade as you grow.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Sub-HEADER Image -->
+        <div class="sub-header-image"></div>
 
     </header>
 
     <main>
 
-      <section class="sectioncentr">
+      <!-- Hub-Offers -->
+      <section id="hub-offers">
+        <div class="container">
 
-        <!--sezione "cubo" -->
-        <section class="cubereg">
+          <!-- General-Presentation -->
+          <div class="general-presentation">
+            <div class="box-wrapper">
+              <img src="img/Integrations_illustration.png" alt="Image">
+              <h2 class="title">Powerful Alone. Better Together</h2>
+              <p class="text">HubSpot offers a full stack of software for marketing, sales, and costumer service, with a
+                completely free CRM at its core. They're powerful alone - but even better whe used together.
+            </div>
+          </div>
 
-          <div class="cube">
+          <!-- Hubspot-Crm -->
+          <div class="box-style hubspot-crm">
+            <div class="clearfix box-wrapper">
 
-            <img src="img/cube.png" alt="cube">
+              <!-- Hubspot-Crm Box-Column Left -->
+              <div class="col">
+                <img src="img/CRM-illustration.svg" alt="Image">
+                <div><a class="button" target="_blank">Learn More</a></div>
+              </div>
 
-            <h2>Powerful Alone. Better Together</h2>
+              <!-- Hubspot-Crm Box-Column Right -->
+              <div class="col">
+                <h3 class="box-title">Free Hubspot CRM</h3>
+                <p class="text">Everything you nee to organize, track and build relationship with leads and
+                  customers.Yes, it's 100% free. Forever.</p>
 
-            <p>Hubspot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its <br>core. They're powerful alone - but even better when used together.</p>
+                <div class="clearfix inline-title">
+                  <h4 class="col box-sub-title">Popolar Feature</h4>
+                  <hr class="col">
+                </div>
+
+                <ul class="checked">
+                  <li class="text"><i class="fas fa-check-circle"></i>Contact Insight</li>
+                  <li class="text"><i class="fas fa-check-circle"></i>Deals</li>
+                  <li class="text"><i class="fas fa-check-circle"></i>Task</li>
+                </ul>
+
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Area Marketing, Sales & Services -->
+          <div class="mark-sale-serv clearfix">
+
+            <!-- Marketing -->
+            <div class="box-style col marketing-hub">
+              <div class="box-wrapper">
+                <img src="img/Marketing-Hub-Free.svg" alt="Image">
+                <h3 class="box-title">Marketing Hub</h3>
+                <p class="text">Marketing software to help you grow traffic, convert more visitors, and run
+                complete inbound marketing campaigns at scale.</p>
+                <hr>
+                <h4 class="box-sub-title">Popolar Feature</h4>
+                <ul class="checked">
+                  <li class="text"><i class="fas fa-check-circle"></i>Contact Insight</li>
+                  <li class="text"><i class="fas fa-check-circle"></i>Deals</li>
+                  <li class="text"><i class="fas fa-check-circle"></i>Task</li>
+                </ul>
+                <div><a class="button" target="_blank">Learn More</a></div>
+              </div>
+            </div>
+
+            <!-- Sales -->
+            <div class="box-style col sales-hub">
+              <div class="box-wrapper">
+                <img src="img/Sales-Professional-Illustration.svg" alt="Image">
+                <h3 class="box-title">Sales Hub</h3>
+                <p class="text">Time-saving sales software that helps you get deeper insights into
+                prospects, automate the tasks you hate, and close more deals faster.</p>
+                <hr>
+                <h4 class="box-sub-title">Popolar Feature</h4>
+                <ul class="checked">
+                  <li class="text"><i class="fas fa-check-circle"></i>Contact Insight</li>
+                  <li class="text"><i class="fas fa-check-circle"></i>Deals</li>
+                  <li class="text"><i class="fas fa-check-circle"></i>Task</li>
+                </ul>
+                <div><a class="button" target="_blank">Learn More</a></div>
+              </div>
+            </div>
+
+            <!-- Service -->
+            <div class="box-style col services-hub">
+              <div class="box-wrapper">
+                <img src="img/Service-Hub-Illustration.svg" alt="Image">
+                <h3 class="box-title">Service Hub</h3>
+                <p class="text">Customer service to help you connect with customers, exceed expectations, and turn
+                them into promoter that grow your business</p>
+                <hr>
+                <h4 class="box-sub-title">Popolar Feature</h4>
+                <ul class="checked">
+                  <li class="text"><i class="fas fa-check-circle"></i>Contact Insight</li>
+                  <li class="text"><i class="fas fa-check-circle"></i>Deals</li>
+                  <li class="text"><i class="fas fa-check-circle"></i>Task</li>
+                </ul>
+                <div><a class="button" target="_blank">Learn More</a></div>
+              </div>
+            </div>
+            <!-- Service -->
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Community-Area -->
+      <section id="community-area">
+        <div class="container">
+
+          <h2 class="title">Learn and grow with award-winning support and a thriving community behind you.</h2>
+          <p class="text">You don't have to go it alone. Master the inbound methodology and get the most out
+            of your tools with HubSpot's legendary customer support and a community of thousand of marketing
+            and sales pros just like you.</p>
+
+            <div class="community-table">
+
+              <ul class="clearfix">
+                <li class="float box-table"><img src="img/homepage_community_agency.svg" alt="Image">
+                  <div>150<span>+</span></div>
+                  <p>Hubspot user groups</p>
+                </li>
+                <li class="float box-table"><img src="img/homepage_community_blog.svg" alt="Image">
+                  <div>4.5M<span>+</span></div>
+                  <p>Hubspot user groups</p>
+                </li>
+                <li class="float box-table"><img src="img/homepage_community_academy.svg" alt="Image">
+                  <div>155K<span>+</span></div>
+                  <p>Hubspot user groups</p>
+                </li>
+                <li class="float box-table"><img src="img/homepage_community_inbound.svg" alt="Image">
+                  <div>21K<span>+</span></div>
+                  <p>Hubspot user groups</p>
+                </li>
+              </ul>
+
+
+            <!-- Bottom Table Line -->
+              <ul class="clearfix">
+                <li class="float box-table"><img src="img/homepage_community_connect.svg" alt="Image">
+                  <div>200<span>+</span></div>
+                  <p>Hubspot user groups</p>
+                </li>
+                <li class="float box-table"><img src="img/homepage_community_globe.svg" alt="Image">
+                  <div>6<span>+</span></div>
+                  <p>Hubspot user groups</p>
+                </li>
+                <li class="float box-table"><img src="img/homepage_community_followers.svg" alt="Image">
+                  <div>2.6M<span>+</span></div>
+                  <p>Hubspot user groups</p>
+                </li>
+                <li class="float box-table"><img  src="img/growthhub-white-small-1.svg" alt="Image">
+                  <div>5k<span>+</span></div>
+                  <p>Hubspot user groups</p>
+                </li>
+              </ul>
+
+            </div>
+
+        </div>
+      </section>
+
+      <!-- Partners-area -->
+      <section id="partners-area">
+        <div class="container">
+
+          <!-- Partners-Area -->
+          <div class="clearfix up-line">
+
+            <div class="col">
+              <h3 class="title">64,500</h3>
+              <p class="text">customers in over <strong>100</strong> countries growing their business with HubSpot</p>
+            </div>
+
+            <!-- Loghi -->
+            <div class="col loghi">
+
+              <!-- Loghi Partners -->
+              <ul class="clearfix top-line-loghi">
+                <li class="col"></li>
+                <li class="col"></li>
+                <li class="col">></li>
+                <li class="col"></li>
+              </ul>
+
+              <!-- BOTTOM-LINE Loghi Partners -->
+              <ul class="clearfix bottom-line-loghi">
+                <li class="col"></li>
+                <li class="col"></li>
+                <li class="col"></li>
+                <li class="col"></li>
+              </ul>
+
+            </div>
 
           </div>
 
-        </section>
+          <!-- Partners-Area -->
+          <div class="clearfix sub-line">
 
+            <!-- Col-Left -->
+            <div class="col-50">
+              <h2 class="title">Start Growing With HubSpot Today</h2>
+              <p class="text">With tools to make every part of your process more human and a support team excited to help
+                you,getting started with inbound has never been easier.</p>
+                <div><a class="button" target="_blank">GetHubspotFree</a></div>
+                <p class="text">Get started with FREE tools, and upgrade as you grow.</p>
+            </div>
 
+            <!--  Col-Right-->
+            <div class="col-50">
+              <img src="img/woman.webp" alt="Image">
+            </div>
 
+          </div>
 
-
+        </div>
       </section>
 
     </main>
 
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+
+        <!-- FOOTER Menu -->
+        <div class="clearfix footer-menu">
+
+          <ul class="col">
+            <li class="text-white-bold">Increase Your Traffic</li>
+            <li>
+              <a class="text-white" target="_blank">Ad Software</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">Blog Software</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">SEO Software</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">Social Media Software</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">Content Management System</a>
+            </li>
+          </ul>
+
+          <ul class="col">
+            <li class="text-white-bold">Connect with leads</li>
+            <li>
+              <a class="text-white" target="_blank">find new prospects</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">email tracking</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">sales email templates</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">click to call your leads</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">email marketing</a>
+            </li>
+          </ul>
+
+          <ul class="col">
+            <li class="text-white-bold">Close and Manage Leads</li>
+            <li>
+              <a class="text-white" target="_blank">Document tracking tool</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">meeting schedule tool</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">sales automation tool</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">lead management tool</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">pipeline management tool</a>
+            </li>
+          </ul>
+
+          <ul class="col">
+            <li class="text-white-bold">Support tools</li>
+            <li>
+              <a class="text-white" target="_blank">HubSpot partners</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">join a local user group</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">get a Free website report</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">HubSpot templates</a>
+            </li>
+            <li>
+              <a class="text-white" target="_blank">Free Tools & Generator</a>
+            </li>
+            <li>
+              <a class="white-button" target="_blank">Contact HubSpot Support</a>
+
+              <!-- List Social -->
+              <ul class="clearfix social">
+                <li class="col">
+                  <a target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="col">
+                  <a target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="col">
+                  <a target="_blank">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+                <li class="col">
+                  <a target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="col">
+                  <a target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- Social -->
+        <ul class="languages">
+          <li><a class="text-white" target="_blank">English</a></Li>
+          <li><a class="text-white" target="_blank">Deutsch</a></Li>
+          <li><a class="text-white" target="_blank">中文语言</a></Li>
+          <li><a class="text-white" target="_blank">Español</a></Li>
+          <li><a class="text-white" target="_blank">Portugués</a></Li>
+          <li><a class="text-white" target="_blank">Français</a></Li>
+        </ul>
+
+        <hr>
+
+        <!-- Credits -->
+        <div class="clearfix credits">
+          <div class="col-50">
+            <img src="img/HSLogo_gray.svg" alt="">
+            <p class="text-white">Copyright &copy; 2019 HubSpot, Inc.</p>
+          </div>
+          <div class="col-50">
+            <div class="text-white">Legal Stuff</div>
+            <div class="text-white">Privacy Policy</div>
+          </div>
+
+        </div>
+
+      </div>
+    </footer>
 
   </body>
-</html>
+  </html>
